@@ -1,0 +1,35 @@
+Principes fondamentaux d'une cryptocurrency:
+
+# Merkle trees:
+
+Reaching Consensus: How to add to a shared blockchain
+# Proof of Work (PoW):
+- Blocks are added gradually.
+- People take turns adding blocks("One CPU One Vote")
+- Bitcoin style: the root checksum must start with a number of zeroes! (Difficulty)
+- The block includes a nonsense "nonce" that can be changed to create new checksums.
+- The difficulty is adjusted to target a desired time between blocks.
+
+# Oraclize:
+Returns the data requested along with a proof of the authenticity:
+
+# Proof of the authenticity:
+The data comes from the data-provider which has been explicity demanded by the smart contract.
+
+# blockchain gas:
+blockchain storage “state-changing” costs gas
+
+# Solidity: https://blockgeeks.com/guides/solidity/
+Language de programmation de smart contracts Ethereum
+
+# Truffle:
+"test-bed" for testing smart contracts
+
+
+
+"""  """
+Idées:
+- Des mines minées puis vendues aux enchères.
+- Un coût de validation et de sécurité dépendant de la valeur d'une transaction.
+- Des bons de trésors émis puis remboursés par ceux qui valident les transactions.
+- La somme de la monnaie en circulation fabriquée depuis une mine est toujours égale à 100%
